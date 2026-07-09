@@ -713,33 +713,7 @@ function WeddingInvitation() {
                   </p>
                 </motion.div>
 
-                {/* Premium Cartoon Image Frame */}
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9, y: 20 }}
-                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2, duration: 0.8 }}
-                  className="relative mx-auto my-8 md:my-12 w-[260px] h-[340px] md:w-[320px] md:h-[420px] z-20 group"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-theme-300 to-theme-500 rounded-t-[140px] md:rounded-t-[160px] rounded-b-2xl transform rotate-3 scale-[1.02] opacity-50 group-hover:rotate-6 transition-transform duration-700" />
-                  <div className="absolute inset-0 bg-white rounded-t-[140px] md:rounded-t-[160px] rounded-b-2xl shadow-2xl border-4 border-theme-100 overflow-hidden flex items-center justify-center p-2">
-                    <img
-                      src="/images/wedding_couple.png"
-                      alt="Wedding Couple"
-                      className="w-full h-full object-cover rounded-t-[130px] md:rounded-t-[150px] rounded-b-xl"
-                    />
-                  </div>
-                  {/* Decorative Elements */}
-                  <div className="absolute -bottom-4 -left-4 w-10 h-10 bg-theme-100 rounded-full shadow-lg border-2 border-white flex items-center justify-center z-20">
-                    <div className="w-2.5 h-2.5 rotate-45 bg-theme-500" />
-                  </div>
-                  <div className="absolute -bottom-4 -right-4 w-10 h-10 bg-theme-100 rounded-full shadow-lg border-2 border-white flex items-center justify-center z-20">
-                    <div className="w-2.5 h-2.5 rotate-45 bg-theme-500" />
-                  </div>
-                  <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-14 h-14 bg-white rounded-full shadow-md border-2 border-theme-200 flex items-center justify-center z-20 group-hover:-translate-y-2 transition-transform duration-500">
-                    <Sparkles className="w-6 h-6 text-theme-500" />
-                  </div>
-                </motion.div>
+
 
                 <div className="relative w-full flex flex-col md:flex-row items-center justify-center md:items-stretch gap-6 md:gap-10 my-12 md:my-20 z-10 px-2 lg:px-8">
 
